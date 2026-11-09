@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora Nutricional",
+  "description": "Calculadora nutricional modularizada en Angular con control de alimentos por comidas, desglose de nutrientes, metas de VDR%, perfiles interactivos y gráficos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

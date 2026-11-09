@@ -1,0 +1,6 @@
+{
+  "summary": "Corrección del input de selección en el modal de compartir comidas:\n- Se implementó DomSanitizer (bypassSecurityTrustHtml) en ConfirmModal y Toast para evitar que Angular elimine por seguridad las etiquetas `<input type=\"checkbox\">` dentro de [innerHTML].\n- Los checkboxes circulares con su selector interactivo ahora se renderizan perfectamente en el modal.\n- Se agregaron estilos de puntero y márgenes para que toda la fila del perfil sea clickeable.\n- Compilación y linter verificados con 0 errores y servidor activo.",
+  "updatedAt": "2026-11-05T21:48:05.222596144Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

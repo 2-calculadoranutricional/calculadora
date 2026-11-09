@@ -1,0 +1,16 @@
+<app-top-bar />
+
+<app-vdr-panel />
+<app-profiles-panel />
+<app-vdr-distribution-panel />
+
+<main id="contenedor-comidas">
+  @for (comida of comidas; track comida) {
+    <app-meal-section [comida]="comida" />
+  }
+  <app-total-section />
+</main>
+
+<app-confirm-modal />
+<app-toast />
+<app-emoji-rain />
